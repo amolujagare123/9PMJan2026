@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.single;
 
 public class IntArrayDemo1 {
 
@@ -19,6 +19,11 @@ public class IntArrayDemo1 {
 
         for (int i=0 ; i<5 ; i++)
             System.out.println(a[i]);
+
+        System.out.println("Below is the array printed with for each loop");
+        // for each
+        for(int x : a)
+            System.out.println(x);
 
 
     }

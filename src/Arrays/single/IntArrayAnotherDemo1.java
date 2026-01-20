@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.single;
 
 public class IntArrayAnotherDemo1 {
 
