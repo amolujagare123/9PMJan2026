@@ -18,6 +18,12 @@ public class Employee {
 
 class Programmer extends Employee
 {
+    // @Override
+    void calculateSalary() // overridden method
+    {
+        System.out.println("Programmer calculateSalary");
+    }
+
     int bonus = 20000;
 
     void programmerWork()
@@ -25,11 +31,7 @@ class Programmer extends Employee
         System.out.println("programmerWork");
     }
 
-   // @Override
-    void calculateSalary() // overridden method
-    {
-        System.out.println("Programmer calculateSalary");
-    }
+
 
     public static void main(String[] args) {
 
