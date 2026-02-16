@@ -2,18 +2,18 @@ package StaticNFinal;
 
 public class Counter {
 
-   static int count = 0;
-   int x;
+    static int count = 0;
+
     Counter()
     {
-      //  count++;
+        count++;
         System.out.println("count="+count);
     }
 
     public static void main(String[] args) {
 
-        Counter c1 = new Counter(); // 0
-        Counter c2 = new Counter(); // 0
-        Counter c3 = new Counter(); // 0
+        Counter c1 = new Counter(); //
+        Counter c2 = new Counter(); //
+        Counter c3 = new Counter(); //
     }
 }
